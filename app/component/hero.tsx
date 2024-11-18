@@ -16,9 +16,11 @@ export const Hero = () => {
        I am currently enrolled in Governor Initiative ARTIFICIAL INTELLIGENCE course...
       </p>
       <div className="flex justify-center">
+        <a href='#contact'>
         <button className="inline-flex text-white bg-[#87aea3] border-0 -my-5 py-2 px-6 focus:outline-none hover:bg-[#6f8e83] rounded text-lg">
           Contact Me
         </button>
+        </a>
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
