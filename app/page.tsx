@@ -3,14 +3,16 @@ import Contact from "./component/contact";
 import Hero from "./component/hero";
 import { Navbar } from "./component/navbar";
 import { Project } from "./component/project";
+import Skills from "./component/skills";
 
 export default function Home() {
   return (
     <div>
       <Hero/>
       <About/>
-      <Contact/>
       <Project/>
+      <Skills/>
+      <Contact/>
     </div>
   );
 }
